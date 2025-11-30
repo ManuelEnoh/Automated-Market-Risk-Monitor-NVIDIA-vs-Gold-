@@ -58,12 +58,12 @@ Si vous voulez reproduire ces résultats :
 ---
 *Créé par **Emmanuel ENOH** – Data Analyst & Ingénieur
 
-# Automated Market Risk Monitor (NVIDIA vs Gold)
+#Automated Market Risk Monitor (NVIDIA vs Gold)
 
 ![Dashboard Preview](dashboard_preview.png)
 *(Note: This is a preview of the Tableau Dashboard built in this project)*
 
-## The Story Behind the Data
+##The Story Behind the Data
 Investors often talk about "Risk", but what does it actually look like in numbers?
 
 With the AI boom, I wanted to answer a concrete question:
@@ -79,18 +79,18 @@ Looking at the dashboard, the data tells a clear story:
 
 ---
 
-## 🛠️ How I Built It (The Tech Stack)
+## How I Built It (The Tech Stack)
 I used a modern data stack to automate the analysis:
 
-* ** Python (The Courier):**
+* **Python (The Courier):**
     * I wrote a script using `yfinance` to automatically fetch 5 years of daily stock prices.
     * It cleans the data and formats it for the database.
 
-* ** SQL / PostgreSQL (The Brain):**
+* **SQL / PostgreSQL (The Brain):**
     * This is where the math happens. I didn't calculate averages; I used **Window Functions** (`LAG`) to calculate daily returns.
     * I computed complex risk metrics like **Standard Deviation** and **Percentiles** directly in the database.
 
-* ** Tableau (The Face):**
+* **Tableau (The Face):**
     * I visualized the results to make them understandable at a glance.
     * The dashboard compares the "Danger Zones" (VaR 95%) of each asset.
 
