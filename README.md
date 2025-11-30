@@ -4,7 +4,8 @@ English version below !!
 
 # Analyse Automatisée du Risque Financier (NVIDIA vs Or)
 
-![Aperçu du Dashboard](dashboard_preview.png)
+![Aperçu du Dashboard](<img width="1652" height="882" alt="image" src="https://github.com/user-attachments/assets/af1edde0-c27b-4a9b-9124-f2a45cfdfdc7" />
+)
 *(Note : Ceci est un aperçu du Dashboard Tableau construit pour ce projet)*
 
 ## L'Histoire derrière les chiffres
