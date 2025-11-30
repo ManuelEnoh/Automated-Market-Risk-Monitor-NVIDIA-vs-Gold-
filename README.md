@@ -60,7 +60,7 @@ Si vous voulez reproduire ces résultats :
 
 #Automated Market Risk Monitor (NVIDIA vs Gold)
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](3_Market_Risk_Monitor)
 *(Note: This is a preview of the Tableau Dashboard built in this project)*
 
 ## The Story Behind the Data
