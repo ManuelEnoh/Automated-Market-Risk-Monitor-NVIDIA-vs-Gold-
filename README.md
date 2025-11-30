@@ -26,15 +26,15 @@ En regardant le dashboard, l'histoire est claire :
 ## Comment je l'ai construit (La Stack Technique)
 J'ai utilisé une stack de données moderne pour automatiser l'analyse :
 
-* ** Python (Le Coursier) :**
+* **Python (Le Coursier) :**
     * J'ai écrit un script utilisant `yfinance` pour récupérer automatiquement 5 ans d'historique de prix.
     * Il nettoie les données et les formate pour la base de données.
 
-* ** SQL / PostgreSQL (Le Cerveau) :**
+* **SQL / PostgreSQL (Le Cerveau) :**
     * C'est ici que les calculs se font. Pas de moyennes simples : j'ai utilisé des **Window Functions** (`LAG`) pour calculer les rendements journaliers.
     * J'ai calculé les métriques de risque complexes (**Écart-type** et **Percentiles**) directement dans la base de données.
 
-* ** Tableau (Le Visage) :**
+* **Tableau (Le Visage) :**
     * J'ai visualisé les résultats pour les rendre compréhensibles en un coup d'œil.
     * Le dashboard compare les "Zones de Danger" (VaR 95%) de chaque actif.
 
@@ -63,7 +63,7 @@ Si vous voulez reproduire ces résultats :
 ![Dashboard Preview](dashboard_preview.png)
 *(Note: This is a preview of the Tableau Dashboard built in this project)*
 
-##The Story Behind the Data
+## The Story Behind the Data
 Investors often talk about "Risk", but what does it actually look like in numbers?
 
 With the AI boom, I wanted to answer a concrete question:
@@ -79,18 +79,18 @@ Looking at the dashboard, the data tells a clear story:
 
 ---
 
-## How I Built It (The Tech Stack)
+## How I Built It
 I used a modern data stack to automate the analysis:
 
-* **Python (The Courier):**
+* **Python:**
     * I wrote a script using `yfinance` to automatically fetch 5 years of daily stock prices.
     * It cleans the data and formats it for the database.
 
-* **SQL / PostgreSQL (The Brain):**
+* **SQL / PostgreSQL:**
     * This is where the math happens. I didn't calculate averages; I used **Window Functions** (`LAG`) to calculate daily returns.
     * I computed complex risk metrics like **Standard Deviation** and **Percentiles** directly in the database.
 
-* **Tableau (The Face):**
+* **Tableau:**
     * I visualized the results to make them understandable at a glance.
     * The dashboard compares the "Danger Zones" (VaR 95%) of each asset.
 
