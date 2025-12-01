@@ -54,12 +54,6 @@ Pour les curieux de finance, voici ce que j'ai modélisé :
 
 ## Comment lancer ce projet
 Si vous voulez reproduire ces résultats :
-
-1.  **Récupérer le code :** Clonez ce dépôt (repo).
-2.  **Obtenir les données :** Lancez `python market_data_extract.py`. Cela générera un fichier CSV propre.
-3.  **Traiter les données :** Chargez le CSV dans PostgreSQL et exécutez le script `risk_analysis.sql`.
-4.  **Voir les résultats :** Connectez le fichier de sortie à Tableau ou PowerBI.
-
 ---
 *Créé par **Emmanuel ENOH** – Data Analyst & Ingénieur
 
@@ -112,11 +106,5 @@ For the finance geeks, here is what I modeled:
 ## How to Run this Project
 If you want to reproduce these results:
 
-1.  **Get the code:** Clone this repo.
-2.  **Get the data:** Run `python market_data_extract.py`. It will generate a clean CSV file.
-3.  **Process the data:** Load the CSV into PostgreSQL and run the `risk_analysis.sql` script.
-4.  **See the results:** Connect the output to Tableau or PowerBI.
-
----
 *Created by **Emmanuel ENOH** – Data Analyst & Engineer*
 
