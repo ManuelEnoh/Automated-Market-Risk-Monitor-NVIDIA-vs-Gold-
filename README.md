@@ -52,8 +52,6 @@ Pour les curieux de finance, voici ce que j'ai modélisé :
 2.  **Value at Risk (VaR 95%) :** Le "Pire Scénario".
     * *Exemple :* Une VaR de -3.5% signifie que 95% du temps, la perte journalière ne dépassera pas 3.5%.
 
-## Comment lancer ce projet
-Si vous voulez reproduire ces résultats :
 ---
 *Créé par **Emmanuel ENOH** – Data Analyst & Ingénieur
 
@@ -103,8 +101,6 @@ For the finance geeks, here is what I modeled:
 2.  **Value at Risk (VaR 95%):** The "Worst Case Scenario".
     * *Example:* A VaR of -3.5% means that 95% of the time, the daily loss won't exceed 3.5%.
 
-## How to Run this Project
-If you want to reproduce these results:
 
 *Created by **Emmanuel ENOH** – Data Analyst & Engineer*
 
