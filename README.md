@@ -1,5 +1,5 @@
 # Automated-Market-Risk-Monitor-NVIDIA-vs-Gold-
-In a market dominated by AI hype, I built an end-to-end data pipeline to quantify the real risk of high-growth assets. The goal: scientifically compare the volatility of NVIDIA (AI Tech) against Gold (Safe Haven) and the S&amp;P 500.
+In a market dominated by AI hype, I built an end-to-end data pipeline to quantify the real risk of high-growth assets. The goal: scientifically compare the volatility of NVIDIA (AI Tech) against Gold (Safe Haven) and the S&P 500.
 
 
 ## English version below !!
