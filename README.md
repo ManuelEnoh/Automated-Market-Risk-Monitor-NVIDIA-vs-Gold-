@@ -1,5 +1,5 @@
 # Automated-Market-Risk-Monitor-NVIDIA-vs-Gold-
-In a market dominated by AI hype, I buil an end-to-end data pipeline to quantify the real risk of high-growth assets. The goal: scientifically compare the volatility of NVIDIA (AI Tech) against Gold (Safe Haven) and the S&P 500.
+In a market dominated by AI hype, I built an end-to-end data pipeline to quantify the real risk of high-growth assets. The goal: scientifically compare the volatility of NVIDIA (AI Tech) against Gold (Safe Haven) and the S&P 500.
 
 
 ## English version below !!
@@ -18,7 +18,7 @@ On parle souvent de "Risque" en finance, mais à quoi cela ressemble-t-il concr�
 Avec l'explosion de l'IA, j'ai voulu répondre à une question simple :
 **"À quel point une action en hyper-croissance comme NVIDIA est-elle plus dangereuse qu'une valeur refuge comme l'Or ?"**
 
-Au lieu d'utiliser des fichiers Excel statiques, j'ai construit un **pipeline de données automatisé** (Python & SQL) pour mesurer ce risque scientifiquement. J'ai calculé le "facteur peur" du marché (la Volatilité) et la perte maximale probable (la VaR).
+Au lieu d'utiliser des fichiers Excel statiques, j'ai construit un **pipeline de données automatisé** (Python & SQL) pour mesurer ce risque scientifiquement. J'ai calculé le "facteur peur" du marché (la Volatilité) et la perte maximale probable (la VaR)
 
 ## Verdict (Ce que disent les données)
 En regardant le dashboard, l'histoire est claire :
