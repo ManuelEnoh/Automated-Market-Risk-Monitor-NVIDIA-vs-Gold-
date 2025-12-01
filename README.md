@@ -8,7 +8,8 @@ In a market dominated by AI hype, I built an end-to-end data pipeline to quantif
 
 ![Aperçu du Dashboard](3_Market_Risk_Monitor.png)
 *(Note : Ceci est un aperçu du Dashboard Tableau construit pour ce projet)*
-
+> **⚡ Methodology Note:**
+> This project was architected and solved manually. I leveraged AI tools (LLMs) strictly as productivity assistants for **code commenting**, **debugging**, and **documentation formatting**. The analytical logic and financial modeling are entirely my own.
 ## L'Histoire derrière les chiffres
 On parle souvent de "Risque" en finance, mais à quoi cela ressemble-t-il concrètement ?
 
