@@ -10,7 +10,7 @@ In a market dominated by AI hype, I built an end-to-end data pipeline to quantif
 *(Note : Ceci est un aperçu du Dashboard Tableau construit pour ce projet)*
 
 > **Note Méthodologique :**
-> Ce projet a été conçu et codé manuellement. L'IA a été utilisée uniquement comme outil de productivité pour le **formatage**, les **commentaires de code** et le **débogage**, simulant un flux de travail professionnel moderne. La logique analytique et financière est entièrement personnelle.
+> Ce projet a été conçu et codé manuellement. L'IA a été utilisée uniquement comme outil de productivité pour le **formatage**, la reformulation des **commentaires de code** et le **débogage**, simulant un flux de travail professionnel moderne. La logique analytique et financière est entièrement personnelle.
 
 ## L'Histoire derrière les chiffres
 On parle souvent de "Risque" en finance, mais à quoi cela ressemble-t-il concrètement ?
