@@ -31,15 +31,15 @@ En regardant le dashboard, l'histoire est claire :
 ## Comment je l'ai construit (La Stack Technique)
 J'ai utilisé une stack de données moderne pour automatiser l'analyse :
 
-* **Python (Le Coursier) :**
+* **Python :**
     * J'ai écrit un script utilisant `yfinance` pour récupérer automatiquement 5 ans d'historique de prix.
     * Il nettoie les données et les formate pour la base de données.
 
-* **SQL / PostgreSQL (Le Cerveau) :**
+* **SQL / PostgreSQL :**
     * C'est ici que les calculs se font. Pas de moyennes simples : j'ai utilisé des **Window Functions** (`LAG`) pour calculer les rendements journaliers.
     * J'ai calculé les métriques de risque complexes (**Écart-type** et **Percentiles**) directement dans la base de données.
 
-* **Tableau (Le Visage) :**
+* **Tableau :**
     * J'ai visualisé les résultats pour les rendre compréhensibles en un coup d'œil.
     * Le dashboard compare les "Zones de Danger" (VaR 95%) de chaque actif.
 
