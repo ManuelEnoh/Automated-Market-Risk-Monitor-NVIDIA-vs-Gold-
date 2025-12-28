@@ -94,7 +94,7 @@ I used a modern data stack to automate the analysis:
 ---
 
 ##  Deep Dive: The Financial Concepts
-For the finance geeks, here is what I modeled:
+For the finance nerds, here is what I modeled:
 
 1.  **Annualized Volatility ($\sigma$):** How wildly does the price swing?
 2.  **Value at Risk (VaR 95%):** The "Worst Case Scenario".
